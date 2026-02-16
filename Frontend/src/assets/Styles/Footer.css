@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .bor {
+    width: 80%;
+    color: aliceblue;
+    margin: auto;
+}
+
+.footer p {
+    margin-top: 20px;
+    color: aliceblue;
+}

@@ -1,0 +1,44 @@
+.navbar{
+    margin: 20px 30px 0px 30px;
+
+    .navname{
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+        font-weight: 600;
+        
+    }
+
+    .navabr-btn{
+        display: flex;
+       
+
+        .butt{
+           
+            color: aqua;
+            border: 3px solid aqua;
+            border-radius: 8px;
+            padding: 8px 16px;
+            background-color: transparent;
+            margin-left: 20px;
+            cursor: pointer;
+
+        }
+       
+         .but{
+           
+            color:black;
+            border: 3px solid aqua;
+            border-radius: 8px;
+            padding: 8px 16px;
+            background-color: aqua;
+            margin-left: 20px;
+            cursor: pointer;
+
+        }
+
+       
+    }
+
+
+}

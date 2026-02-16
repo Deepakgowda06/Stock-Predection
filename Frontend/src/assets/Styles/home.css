@@ -1,0 +1,30 @@
+.container{
+    background-color: #283035;
+     color: aliceblue;
+        width: 60%;
+        height: auto;
+        margin-top: 10vh;
+        border-radius: 10px;
+        text-align: center;
+
+
+    .container-content{
+        h1{
+            padding: 20px auto;
+        }
+        p{
+            padding: 10px;
+        }
+       .butt{
+          color:black;
+            border: 3px solid aqua;
+            border-radius: 8px;
+            padding: 8px 16px;
+            background-color: aqua;
+            margin-left: 20px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-weight: bold;
+       }
+    }
+}
