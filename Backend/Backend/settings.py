@@ -52,6 +52,10 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://frontend-two-beta-ubv0f5ink2.vercel.app",
+]
+
 ROOT_URLCONF = "Backend.urls"
 
 TEMPLATES = [
