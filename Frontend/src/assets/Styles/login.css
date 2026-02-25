@@ -1,0 +1,83 @@
+/* center form */
+.loginform {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form card */
+.loginform form {
+    width: 350px;
+    background: #2c3034;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* title */
+.loginform h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* inputs */
+.loginform input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: #1f2225;
+    color: white;
+}
+
+/* placeholder */
+.loginform input::placeholder {
+    color: #aaa;
+}
+
+/* focus */
+.loginform input:focus {
+    border: 1px solid #0d6efd;
+}
+
+/* error messages */
+.loginform small div {
+    color: #ff4d4f;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+/* button */
+.loginform button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #0d6efd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+/* hover */
+.loginform button:hover {
+    background: #0b5ed7;
+}
+
+/* disabled button */
+.loginform button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+/* loading animation (optional) */
+.loginform button:active {
+    transform: scale(0.97);
+}

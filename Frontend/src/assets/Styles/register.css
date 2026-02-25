@@ -1,0 +1,98 @@
+/* page center */
+.formdata {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form card */
+.formdata form {
+    width: 380px;
+    background: #2c3034;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* title */
+.formdata form p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* inputs */
+.formdata input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: #1f2225;
+    color: white;
+}
+
+/* placeholder */
+.formdata input::placeholder {
+    color: #aaa;
+}
+
+/* focus effect */
+.formdata input:focus {
+    border: 1px solid #0d6efd;
+}
+.spinner {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #ccc;
+    border-top: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}
+
+/* error message */
+.formdata small div {
+    color: #ff4d4f;
+    font-size: 13px;
+    margin-top: -6px;
+}
+
+/* success message */
+.formdata small div[style*="Green"] {
+    color: #00c851 !important;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* button */
+.formdata button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: aqua;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s ease;
+    font-weight: 500;
+}
+
+/* button hover */
+.formdata button:hover {
+    background: aqua;
+}
+
+/* button active click */
+.formdata button:active {
+    transform: scale(0.97);
+}

@@ -9,15 +9,18 @@ const Home = () => {
         <div className="container-content">
           <h1>Stock Prediction portal</h1> 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-            officiis reiciendis tenetur odit. Id minima excepturi ipsum iste ab
-            porro, natus blanditiis at perferendis mollitia illum deserunt,
-            necessitatibus, officia earum. Vitae nam voluptas, mollitia
-            accusamus, fuga ratione fugit, optio itaque iure cumque eligendi
-            commodi cum molestiae doloremque deserunt ab doloribus!
+            This Stock Prediction Portal uses Machine Learning techniques to analyze 
+            historical stock market data and forecast future price movements. 
+            It provides visual insights including price trends, 100-day and 200-day 
+            moving averages, and a final predicted result graph. 
+            Users can enter any stock ticker symbol to view performance analysis 
+            and model evaluation metrics such as Mean Squared Error (MSE) and 
+            Root Mean Squared Error (RMSE). 
+            This platform helps investors and learners understand stock behavior 
+            using data-driven predictions.
           </p>
-           <Link to="/login" >
-          <button className='butt'>Login</button>
+           <Link to="/dashboard" >
+          <button className='butt'>Explore Now</button>
         </Link>
         </div>
       </div>
